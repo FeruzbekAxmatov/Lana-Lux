@@ -1,0 +1,219 @@
+:root {
+  --primary-padding: 15rem;
+}
+/* 375px */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+/* desktop first 1280*/
+
+header {
+  padding-inline: var(--primary-padding);
+  padding-block: 0.5rem;
+  background: rgb(200, 177, 150);
+}
+nav {
+  display: flex;
+  align-items: center;
+  /* gap: 1.2rem; */
+  justify-content: space-between;
+}
+.nav_heading {
+  color: rgb(113, 70, 21);
+  font-family: Park Avenue;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-style: italic;
+}
+.nav_logo {
+  height: 4.6rem;
+}
+/* >,+,~ */
+nav > .katalog_btn {
+  border-radius: 3px;
+  box-shadow: 0px 24px 44px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(240, 235, 231);
+  padding: 15px 16px;
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  outline: 2px solid rgb(240, 235, 231);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.katalog_btn > span {
+  color: rgb(49, 49, 49);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.nav-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 3px;
+}
+.nav-phone > p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.nav-phone > a {
+  color: rgb(113, 70, 21);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 1%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.circle_btn {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: rgb(240, 235, 231);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s all;
+}
+.circle_btn:hover {
+  transform: scale(1.06);
+  background-color: white;
+}
+.language_dropdown_btn {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.language_dropdown_btn > span {
+  color: rgb(49, 49, 49);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.language_dropdown_btn > .arrow-left-icon{
+    height: 20px;
+}
+
+/* hero section */
+
+.hero{
+  width: 100%;
+}
+.container{
+  margin-left: 235px;
+  margin-right: 235px;
+}
+.hero-content{
+  width: 100%;
+  margin: auto;
+}
+.hero-content > h2{
+  margin-top: 53px;
+  margin-bottom: 20px;
+  font-family: Vanta;
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.image{
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content-info{
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  width: 19%;
+  padding: 20px;
+  background: rgba(249, 247, 244, 1);
+
+}
+.item > img{
+  padding-top: 26px;
+  padding-left: 29px;
+  background-color: white;
+}
+.item > h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: rgba(49, 49, 49, 1);
+}
+.item > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.item-info{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.item-title{
+  margin-top: 30px;
+  margin-bottom: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+.item-title > button  {
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.item-title > img {
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: linear-gradient(90.9deg, #896D4D 0.77%, #CDB79C 100.82%);
+  border-radius: 5px;
+}
+/* section */
+section{
+  width: 100%;
+}
+
+
+/* Tablet size 768px 1280px   */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+}
+
+/* phone size 0 768px */
+@media screen and (max-width: 768px) {
+}
